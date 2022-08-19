@@ -11,7 +11,7 @@ const App = () => {
 
     React.useEffect(() => {
         if(produto !== null)
-            window.localStorage.setItem('produto', produto);
+            window.localStorage.setItem('produto', produto)
     }, [produto])
 
     function handleClick({target}){
